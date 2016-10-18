@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping map-id="en" date-format="dd/MM/yyyy">
+		<class-a>com.pranical.domain.Persona</class-a>
+		<class-b>com.pranical.domain.PersonaDTO</class-b>
+		<field>
+			<a>nombre</a>
+			<b>nombre</b>
+		</field>
+		<field>
+			<a>edad</a>
+			<b>edad</b>
+		</field>
+		<field>
+			<a>factura.concepto</a>
+			<b>concepto</b>
+		</field>	
+		<field>
+			<a>fecha</a>
+			<b>fecha</b>
+		</field>		 			
+	</mapping>
+	<mapping map-id="fr" date-format="MM/dd/yyyy">
+		<class-a>com.pranical.domain.Persona</class-a>
+		<class-b>com.pranical.domain.PersonaDTO</class-b>
+		<field>
+			<a>nombre</a>
+			<b>nombre</b>
+		</field>
+		<field>
+			<a>edad</a>
+			<b>edad</b>
+		</field>
+		<field>
+			<a>factura.importe</a>
+			<b>importe</b>
+		</field>	
+		<field>
+			<a>fecha</a>
+			<b>fecha</b>
+		</field>		 	
+	</mapping>
+</mappings>
